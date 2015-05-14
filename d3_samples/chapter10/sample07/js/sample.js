@@ -6,7 +6,7 @@ d3.csv("mydata.csv", function(error, data){
 	var svgHeight = window.getComputedStyle(svgEle, null).getPropertyValue("height");
 	svgWidth = parseFloat(svgWidth);	// 値は単位付きなので単位を削除する
 	svgHeight = parseFloat(svgHeight);	// 値は単位付きなので単位を削除する
-	var offsetX = 30;	// X座標のオフセット
+	var offsetX = 35;	// X座標のオフセット
 	var offsetY = 20;	// Y座標のオフセット
 	var svg = d3.select("#myGraph");	// SVG要素を指定
 	// データを読み込み設定する

@@ -45,4 +45,4 @@ function updateGraph(){
 setInterval(function(){
 	dataSet = updateData(dataSet);	// データ更新
 	updateGraph();	// グラフ更新
-}, 2000);
+}, 1000);

@@ -1,7 +1,7 @@
 // ●は変更箇所（編集用）
 var svgWidth = 320;	// SVG要素の横幅
 var svgHeight = 240;	// SVG要素の高さ
-var dataSet = [50, 30, 12, 5, 3];	// データセット。割合を示している
+var dataSet = [50, 30, 12, 5, 3, 100];	// データセット。割合を示している
 var color = d3.scale.category10();  // D3.jsが用意した標準の10色を指定
 // 円グラフの座標値を計算するメソッド
 var pie = d3.layout.pie()	// 円グラフレイアウト

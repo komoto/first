@@ -43,6 +43,14 @@ function drawScale(){
 				.scale(yScale)  //スケールを適用する
 				.orient("left") //目盛りの表示位置を左側に指定
 			)
+			//テキスト入力
+		     .append("text")
+		     .attr("transform", "rotate(-90)")
+		     .attr("y", 6)
+		     .attr("dy", ".71em")
+		     .style("text-anchor", "end")
+		     .text("Price ($)"); 
+		     //テキスト入力
 		// 横方向の線を表示する
 		d3.select("#myGraph")
 			.append("rect")	// rect要素を追加

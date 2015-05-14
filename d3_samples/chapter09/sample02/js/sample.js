@@ -20,7 +20,7 @@ var lineElements = d3.select("#myGraph")
 	.attr("d", line(dataSet))	//連続線を指定
 // 目盛りを表示するためにスケールを設定
 var yScale = d3.scale.linear()  // スケールを設定
-	.domain([0, 100])   // 元のサイズ
+	.domain([0, 300])   // 元のサイズ
 	.range([scale*100, 0]) // 実際の出力サイズ
 // 目盛りを表示
 d3.select("#myGraph")	// SVG要素を指定

@@ -59,7 +59,7 @@ function drawScale(){
 	d3.select("#myGraph")	// SVG要素を指定
 		.append("g")	// g要素を追加。これが目盛りを表示する要素になる
 		.attr("class", "axis")	// CSSクラスを指定
-		.attr("transform", "translate("+offsetX+", "+(svgHeight-maxY-offsetY)+")")
+		.attr("transform", "translate("+offsetX+", "+(svgHeight-maxY-offsetY)+")") 
 		.call(
 			d3.svg.axis()
 			.scale(yScale)  //スケールを適用する
@@ -83,7 +83,7 @@ function drawScale(){
 // 目盛りを表示する
 drawScale();
 // タイマーを使って2秒ごとに位置を変化させる
-setInterval(function(){
-	dataSet = updateData(dataSet);	// データ更新
-	updateGraph();	// グラフ更新
-}, 2000);
+// setInterval(function(){
+// 	dataSet = updateData(dataSet);	// データ更新
+// 	updateGraph();	// グラフ更新
+// }, 2000);

@@ -61,4 +61,3 @@ function drawScale(){
 			.attr("height", 1)	// 線の縦幅を指定
 			.attr("transform", "translate("+offsetX+", "+(svgHeight-offsetY-0.5)+")")
 }
-

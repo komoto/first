@@ -1,10 +1,10 @@
 var svgWidth = 320;	// SVG要素の横幅
 var svgHeight = 240;	// SVG要素の高さ
-var dataSet = [50, 30, 12, 5, 3];	// データセット。割合を示している
+var dataSet = [50, 30, 12, 10];	// データセット。割合を示している
 // 円グラフの座標値を計算するメソッド
 var pie = d3.layout.pie()	// 円グラフレイアウト
 // 円グラフの外径、内径を設定
-var arc = d3.svg.arc().innerRadius(0).outerRadius(100);
+var arc = d3.svg.arc().innerRadius(10).outerRadius(100);
 // 円グラフを描画
 var pieElements = d3.select("#myGraph")
 	.selectAll("path")	// path要素を指定
