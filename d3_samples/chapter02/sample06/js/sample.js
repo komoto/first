@@ -1,5 +1,6 @@
 // 棒グラフのデータ（データセット）
 var dataSet = [300, 130, 5, 60, 240];
+alert("データセットの中身" + dataSet);
 // データにもとづいて描画する
 d3.select("#myGraph")	// SVG要素を指定
 	.selectAll("rect")	// SVGでの四角形を示す要素を指定
