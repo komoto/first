@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <svg id="svg" width="500" height="500">
-        <path id="target_path" d="
-                M 10,250
-                L 490,250 Z"
-        stroke="#000" fill="none" />
-    　　 <circle id="move_circle" cx="0" cy="0" r="5" fill="red">
-           <animateMotion dur="4s" repeatCount="indefinite">
-             <mpath xlink:href="#target_path"></mpath>
-           </animateMotion>
-    　　 </circle>
-    </svg>
-  </body>
+<head>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <title>d3.js sample</title>
+  <style type="text/css">
+  div.bar{
+    display: inline-block;
+    width: 20px;
+    height: 50px;
+    background-color:blue;
+  }
+  </style>
+   </head>
+   <body>
+      <svg width ="500px" height ="900px"></svg>
+      <script type ="text/javascript">
+
+      var dataset = [300,400,20,40,130];
+
+      d3.select("body").selectAll("p")
+      .data(dataset)
+      .enter()
+      .append("div")
+      .attr("class", "bar")
+      .attr("width", function(d){
+        alert( d + "の中身です。");
+        return d;
+        })
+
+      // d3.select("body").selectAll("p")
+      // .data(dataset)
+      // .enter()
+      // .append("p")
+      // .text(function(d){return d + "だよ。";})
+      // .style("color",function(d){
+      //
+      //   if (d > 200){
+      //     return "red";
+      //   } else {
+      //       return "blue";
+      //     }
+      // })
+      //
+      // .classed(bar, true);
+
+      </script>
+   </body>
 </html>
-<!-- d3においてattrは属性を追加するもの
-　appendは要素を追加するもの -->
+<!-- d3js practicemeno -->
+
+<!-- d3においてattrは属性を修正、追加するもの
+　appendは要素を修正、追加するもの -->
+
+<!-- 参照はチェイン構文のようなもの -->
+
+<!-- データのバインディング -->
