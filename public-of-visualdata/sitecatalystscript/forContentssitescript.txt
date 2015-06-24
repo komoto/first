@@ -1,0 +1,37 @@
+prop3のみ毎回変更の必要あり
+
+
+<!--/SiteCatalyst code-->
+<script type="text/javascript">
+var now = new Date();
+var pageName = location.href;
+var channel = "DS";
+var server = location.host;
+var pageType = "";
+var prop1 = "DSx-Visual Data 〜データや映像で体感";
+var prop2 = "DSx-Visual Data 〜データや映像で体感-記事";
+
+
+
+var prop3 = "[Visual Data]Data Discovery 観光だけじゃない！ニッポンに住む外国人の素顔（仮）";
+
+
+
+
+
+
+var prop6 = now.getHours();
+var prop22 = "Visual Data 〜データや映像で体感";
+var prop24 = "Visual Data 〜データや映像で体感";
+</script>
+<script language="JavaScript" src="http://parts.nikkei.com/parts/SC/newsx/s_codeDSnewsx20141101."></script>
+<script language="JavaScript" src="http://cdn.nikkei.com/parts/SC2/s_cDS.js"></script>
+<script language="JavaScript">
+<!--
+ if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'¥!-'+'-')
+//--></script>
+<noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="http://nikkei.d1.sc.omtrdc.net/b/ss/nikkeicojpgrpmstallprod,nikkeicojpdsmstallprod,nikkeicojpdsmstdsprod,nikkeicojpdsnewsxprod/1/H.9--NS/0" height="1" width="1" border="0" alt="" />
+
+</a></noscript>
+<!--/DO NOT REMOVE/-->
+<!--/SiteCatalyst code-->

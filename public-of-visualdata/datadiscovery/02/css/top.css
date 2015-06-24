@@ -1,0 +1,743 @@
+@charset utf-8;
+
+/*** base ***/
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+	display:inline;
+}
+li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:inline;
+}
+img{
+	border:none;
+	max-width: 100%; 
+	height:auto;
+	vertical-align: top;
+}
+
+.pc{
+	display:none;
+}
+.sp{
+	display:block;
+	margin
+}
+
+
+
+/*** cmn ***/
+.layerBox{
+	position:relative;
+	display:inline-block;
+	top:0; left:0;
+}
+
+.layerBox img {
+	width: 100%
+}
+
+.base{
+	position:relative;
+	top:0; left:0;
+}
+
+.ov{
+	position:absolute;
+	top:0;left:0;
+}
+.masker{
+	position:absolute;
+	top:100%; left:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.mTxt{
+	position:relative;
+	display:block;
+	margin:0 auto;
+	width:100%;
+	min-width:320px;
+	max-width:830px;
+	padding:0 20px;
+	font-size:13px;
+	color:#FFF;
+	line-height:1.7;
+	text-align:left;
+	margin-top:0px;
+}
+.mTxt a{
+	color:#57c9d4;
+	text-decoration:underline;
+}
+
+.source{
+	position:relative;
+	display:block;
+	margin:0 auto;
+	width:100%;
+	min-width:320px;
+	max-width:830px;
+	padding:0 20px;
+	text-align:right;
+}
+.source a{
+	font-size:13px;
+	color:#c9caca;
+	line-height:2.1;
+	text-decoration:underline;
+}
+.source a:hover{
+	font-size:13px;
+	color:#c9caca;
+	line-height:2.1;
+	text-decoration:underline;
+}
+
+
+
+/*** ddWrapper ***/
+#ddWrapper{
+	position:relative;
+	min-width:320px;
+	background-color:#1e262c;
+}
+#ddWrapper h2{
+	margin-left:0;
+	margin-right:0;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+/*** ddTitleArea ***/
+#ddTitleArea{
+	position:relative;
+	border-top:#1e262c solid 1px;
+	background-color:#FFF;
+}
+#ddTitleArea h2{
+	margin:0;
+	padding:0;
+}
+#ddTitleArea img{
+	width:50%;
+	max-width:320px;
+	min-width:160px;
+	height:auto;
+}
+
+/*** leadArea ***/
+#leadArea{
+	position:relative;
+	background-color:#1e262c;
+}
+#leadArea h2{
+	margin:0;
+	padding:0;
+}
+#leadTitle{
+	width:100%;
+	max-width:640px;
+	min-width:320px;
+	height:auto;
+}
+#leadImgArea{
+	display:block;
+	position:relative;
+	width:100%;
+	max-width:1200px;
+	min-width:320px;
+	height:auto;
+	text-align:center;
+	margin:0 auto;
+}
+#leadImg1{
+	width:100%;
+	max-width:640px;
+	min-width:320px;
+	height:auto;
+}
+#leadImg2{
+	position:absolute;
+	top:0; left:0;
+	width:100%;
+	max-width:640px;
+	min-width:320px;
+	height:auto;
+	opacity:0;
+}
+#leadTxt{
+	position:relative;
+	display:block;
+	margin:0 auto;
+	width:100%;
+	min-width:320px;
+	max-width:830px;
+	padding:0 20px;
+	font-size:13px;
+	color:#FFF;
+	line-height:1.7;
+	text-align:left;
+	margin-top:0px;
+}
+
+/*** s02Area ***/
+#s02Area{
+	position:relative;
+	width:100%;
+	background-color:#12171a;
+	margin-top:40px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#s02_1{
+}
+#s02_1t{
+	margin-bottom:16px;
+}
+#s02_1t_base{
+	padding:0 20px;
+}
+#s02_1t_ov{
+	padding:0 20px;
+}
+.s02graph{
+	width:30%;
+	max-width:170px;
+}
+#s02_2t{
+	margin-top:30px;
+	margin-bottom:40px;
+}
+#s02_2t_base{
+	padding:0 20px;
+}
+#s02_2t_ov{
+	padding:0 20px;
+}
+#s02_2g{
+	margin-bottom:46px;
+}
+#s02_3t{
+	margin-top:30px;
+	margin-bottom:40px;
+}
+#s02_3t_base{
+	padding:0 20px;
+}
+#s02_3t_ov{
+	padding:0 20px;
+}
+#s02_3g{
+	margin-bottom:46px;
+}
+
+/*** s03Area あなたの家庭は大丈夫？家計調査と比べてみよう ***/
+#s03Area h2 img{
+	margin:0 auto;
+}
+#s03Area h3{
+	padding:0 20px;
+	margin-bottom: 0px !important;
+	margin-top: 40px;
+}
+#s03Area h3 img{
+	margin:0 auto;
+}
+#s03_1g{
+	margin-bottom:20px;
+}
+#s03_2g{
+	margin-bottom:20px;
+}
+#s03_3g{
+	margin-bottom:20px;
+}
+#s03_4g{
+	margin-bottom:20px;
+}
+#s03_5g{
+	margin-bottom:20px;
+}
+
+/*** s04Area 膨らむ支出 どう改革 （動画） ***/
+#s04Area h2 img{
+	margin:0 auto;
+}
+#s04Area h3{
+	padding:0 20px;
+	margin-bottom: 30px !important;
+}
+#s04Area h3 img{
+	margin:0 auto;
+}
+#s04_v {
+	margin: 40px 0 0;
+	width: 100%;
+	max-width: 600px;
+}
+/*** video-player ***/
+.video-player object {
+	width: 100%;     /* ハックなし */
+	width: 300px\9; /* IE10以下 */
+	*width: 300px;   /* IE7以下 */
+}
+@media screen and (min-width: 480px) {
+	.video-player object {
+		width: 100%;     /* ハックなし */
+		width: 400px\9; /* IE10以下 */
+		*width: 400px;   /* IE7以下 */
+	}
+}
+@media screen and (min-width: 600px) {
+	#s04_v{
+		margin: 40px auto 0;
+		width: 100%;
+	}
+	.video-player object {
+		width: 100%;     /* ハックなし */
+		width: 600px\9; /* IE10以下 */
+		*width: 600px;   /* IE7以下 */
+	}
+}
+
+/*** s05Area もっと身近に実感 「使える家計調査」 ***/
+#s05Area{
+	display:inline-block;
+	max-width:100%;
+	margin:0 auto;
+}
+#s05Area h2 img{
+	margin:0 auto;
+}
+#s05Area h3{
+	padding:0 20px;
+}
+#s05Area h3 img{
+	margin:0 auto;
+}
+#s05Area h4{
+	display:block;
+	font-size:18px;
+	color:#FFF;
+	width:100%;
+	padding:20px 20px 5px;
+	text-align:left;
+}
+/*@media screen and (max-width: 480px) {
+
+	#s05Area{
+		width: 100%;
+	}*/
+
+
+/*** s05 収入別 ***/
+#incomeNavi{
+	padding:20px;
+}
+
+#incomeNavi ul{
+	width:100%;
+	display:table;
+	table-layout:fixed;
+}
+#incomeNavi ul li:first-child{
+	border-left:#8f9396 solid 2px;
+}
+#incomeNavi ul li:last-child{
+	border-right:#8f9396 solid 2px;
+}
+#incomeNavi ul li{
+	display:table-cell;
+	border-top:#8f9396 solid 2px;
+	border-bottom:#8f9396 solid 2px;
+	border-right:#8f9396 solid 1px;
+	border-left:#8f9396 solid 1px;
+	color:#8f9396;
+	font-size:11px;
+	height:35px;
+	vertical-align:middle;
+	padding:5px;
+	cursor:pointer;
+}
+#incomeNavi ul li.selected{
+	border-top:#57c8d4 solid 2px !important;
+	border-bottom:#57c8d4 solid 2px !important;
+	border-right:#57c8d4 solid 1px !important;
+	border-left:#57c8d4 solid 1px !important;
+	color:#57c8d4 !important;
+}
+#incomeNavi ul li:first-child.selected{
+	border-left:#57c8d4 solid 2px !important;
+}
+#incomeNavi ul li:last-child.selected{
+	border-right:#57c8d4 solid 2px !important;
+}
+
+
+/*** s05地域別 ***/
+.dropdown{
+	display:inline-block;
+	margin:0 4px;
+}
+#area_name,
+#region_name{
+	display:inline;
+}
+
+/*** 横棒グラフ ***/
+.g1select {
+	font-size:16px;
+	color:#FFF;
+	padding:0 0 0;
+	background-color:#1e262c;
+}
+#s05_graph2 .g1select {
+	padding-top:40px;
+	padding-bottom:36px;
+}
+.g1select a{
+	font-size:16px;
+	color:#FFF;
+	padding:20px;
+	cursor:pointer;
+	font-weight:normal;
+}
+.g1select a.selected{
+	font-size:16px;
+	color:#57c9d4;
+	padding:20px;
+	font-weight:bold;
+}
+
+ul.Graph{
+	display:block;
+	width:100%;
+	min-width:320px;
+	max-width:560px;
+	text-align:left;
+	padding:0 20px;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+ul .gBar{
+	overflow:hidden;
+	display:block;
+	width:100%;
+	min-width:280px;
+	max-width:560px;
+}
+.Graph .name{
+	position:relative;
+	font-size:10px;
+	color:#FFF;
+	opacity:0.5;
+	margin-top:12px;
+	margin-left:6px;
+	margin-bottom:-10px;
+	z-index:10;
+}
+
+.Graph .bar{
+	position:relative;
+	background-color:#1e262c;
+	width:100%;
+	height:auto;
+}
+
+.Graph .flag{
+	position:absolute;
+	top:0; left:0;
+	height:100%;
+	width:auto;
+}
+
+.Graph .plane{
+	position:relative;
+	top:0;left:0;
+}
+.Graph .value{
+	position:absolute;
+	top:50%; left:30%;
+	font-size:16px;
+	color:#57c9d4;
+	font-weight:bold;
+	margin-top:-10px;
+}
+
+.arrow{
+	width:21px;
+	height:auto;
+	vertical-align:middle;
+}
+
+
+
+/*** s2Area ***/
+#s2Area{
+	clear:both;
+	position:relative;
+	background-color:#1e262c;
+	padding-top:38px;
+}
+#s2Area img{
+	margin: 0 auto;
+}
+
+
+/*** PCグラフ ***/
+
+.g2select {
+	text-align:left;
+}
+.dropdown li{
+	cursor:pointer;
+}
+.expendList li{
+	cursor:pointer;
+}
+
+
+/*** archiveArea ***/
+#archiveAreaPc,
+#archiveAreaSp{
+	clear:both;
+	margin-top:30px;
+	color:#FFF;
+}
+#archiveAreaPc dt,
+#archiveAreaSp dt{
+	font-weight:normal;
+	margin-bottom:5px;
+}
+#archiveAreaPc dd,
+#archiveAreaSp dd{
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.blinePc{
+	margin-top:40px !important;
+	margin:0 auto;
+}
+#archiveAreaPc{
+	text-align:left !important;
+	width:360px;
+	margin:0 auto !important;
+	margin-top:30px !important;
+	font-size:0.8em;
+}
+#archiveAreaSp{
+	text-align:left !important;
+	width:310px;
+	margin:0 auto !important;
+	margin-top:30px !important;
+	font-size:0.8em;
+}
+
+
+
+
+/*** creditArea ***/
+#creditAreaPc,
+#creditAreaSp{
+		clear:both;
+	margin-top:30px;
+	color:#FFF;
+}
+#creditAreaPc dt,
+#creditAreaSp dt{
+	font-weight:normal;
+	margin-bottom:5px;
+}
+#creditAreaPc dd,
+#creditAreaSp dd{
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.blinePc{
+	margin-top:40px !important;
+	margin:0 auto;
+}
+#creditAreaPc{
+	text-align:left !important;
+	width:360px;
+	margin:0 auto !important;
+	margin-top:30px !important;
+	font-size:0.8em;
+}
+.blineSp{
+	margin-top:0px !important;
+	margin:0 auto;
+	max-width:90% !important;
+}
+#creditAreaSp{
+	text-align:left !important;
+	width:310px;
+	margin:0 auto !important;
+	margin-top:30px !important;
+	font-size:0.8em;
+}
+
+
+
+/*** paperArea ***/
+#paperArea{
+	background-color:#FFF;
+	padding-bottom:40px;
+}
+
+#paperArea h2{
+	position:relative;
+	display:block;
+	margin:0 auto;
+	width:100%;
+	min-width:320px;
+	max-width:828px;
+	padding:0 20px;
+	font-size:13px;
+	color:#FFF;
+	line-height:1.7;
+	text-align:center;
+	box-sizing:border-box;
+	margin-top:42px;
+	padding-top:42px;
+	margin-bottom:25px;
+}
+#paperArea h2 img{
+	border-top:#1e262c solid 1px;
+	border-bottom:#1e262c solid 1px;
+	box-sizing:border-box;
+}
+#paperArea p{
+	display:block;
+	margin:0 auto;
+	max-width:810px;
+	color:#010101;
+	font-size:13px;
+	line-height:1.7;
+	padding:0 20px;
+	text-align:left;
+}
+#paperArea .paperImg{
+	padding:10px 40px;
+}
+#paperArea .pdf{
+	margin-top: 16px;
+	padding:0 20px;
+	text-align:right;
+}
+#paperArea .pdf a{
+	color:#a3a3a3;
+	font-size:13px;
+	line-height:1.7;
+}
+
+/*** downloadArea ***/
+#downloadArea {
+	background-color: #f8f8f8;
+	padding-bottom: 40px;
+	border-top: 1px solid #e8e8e8;
+	padding-top: 40px;
+}
+#downloadArea .dataDownload {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 0 auto 0;
+	text-align: center;
+	line-height: 1;
+	min-width: 320px;
+	max-width: 830px;
+	padding: 0 20px;
+}
+#downloadArea .dataDownload a {
+	color: #a3a3a3;
+	font-size: 12px;
+	line-height: 2.1;
+	border: 2px solid #e8e8e8;
+	text-decoration: none;
+	padding: 10px 15px;
+	/*background-color: #092f5f;*/
+}
+
+/*** content-prev ***/
+.content-prev {
+	border-top: 1px solid #e8e8e8;
+	background-color: #f8f8f8;
+	margin: 0 auto;
+	text-align: center;
+}
+.content-prev p.btn-prev {
+	margin: 0 auto;
+}
+.content-prev a {
+	color: #a3a3a3;
+	padding: 16px;
+	font-size: 14px;
+	display: inline-block;
+	line-height: 1;
+	text-decoration: none;
+}
+
+/*** others ***/
+
+.modal-img{
+	width:100%;
+}
+
+
+
+/************************************/
+/*■PCサイズ
+/************************************/
+@media screen and (min-width: 730px) {
+
+	.pc{
+		display:block;
+	}
+	.sp{
+		display:none;
+	}
+
+	.graphArea{
+		float:left;
+		width:360px;
+	}
+
+
+	/*** paperArea ***/
+	#paperArea h2{
+		font-size:26px;
+	}
+	#paperArea p{
+		font-size:16px;
+	}
+	#paperArea .paperImg{
+		max-width:342px;
+		height:auto;
+	}
+}
+
+/************************************/
+/*■PCサイズ
+/************************************/
+@media screen and (min-width: 830px) {
+
+	.graphArea{
+		float:left;
+		width:400px;
+	}
+
+}

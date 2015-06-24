@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+.wrappper{
+	background-color:#092f5f;
+}
+
+#chartHolder1 a {
+/*	font-size: 14px;
+	color: #3874e3;
+	text-decoration: underline;
+	cursor: pointer;*/
+}
+
+/*** chartHolder1 ***/
+#chartHolder1{
+	position:relative;
+	width:730px;
+	margin:0 auto;
+	padding-bottom:40px;
+}
+	
+#chartHolder1 h2{
+	font-size:23px;
+	color:#FFF;
+	text-align:left;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+#chartHolder1 .naviArea {
+	display:relative;
+	padding-top:35px;
+	text-align:left;
+}
+#chartHolder1 .btnList li{
+	display:inline-table;
+	background-color:#092f5f;
+	color:#fff;
+	height:40px;
+	width:72px;
+	text-align:center;
+	vertical-align:top;
+	margin:2px 2px 4px 0;
+	border: #fff 1px solid;
+	opacity:0.6;
+}
+#chartHolder1 .btnList li a{
+	display:table-cell;
+	vertical-align:middle;
+	font-size:13px;
+	line-height:1.1;
+	font-weight:bold;
+	text-decoration:none;
+	color:inherit;
+}
+#chartHolder1 .btnList li.selected{
+	color:#F99F00;
+	border: #F99F00 solid 1px;
+	opacity:1;
+}
+
+
+#chartHolder1 .expendList{
+	position:absolute;
+	top:70px; left:598px;
+	display:block;
+}
+#chartHolder1 .expendList li{
+	display:block;
+	text-align:left;
+	vertical-align:top;
+	font-size:12px;
+	margin:1px 2px 2px 0;
+}
+#chartHolder1 .ccolor{
+	display:inline-block;
+	width:30px;
+	height:12px;
+	background-color:#FFF;
+	vertical-align:middle;
+	margin-right:4px;
+}
+
+#chartHolder1 .expendList li a{
+	display:inline;
+	color:#FFF;
+	font-size:12px;
+	line-height:1.0;
+	font-weight:bold;
+	text-decoration:none;
+}
+#chartHolder1 .expendList li a p{
+	display:inline;
+	color:#FFF;
+	font-size:12px;
+	line-height:1.0;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#result {
+	position: relative;
+	width: 588px;
+	height: 382px;
+	margin-top: 20px;
+	background-color: #12171a;/*グラフ背景色*/
+}
+#result svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill:#FFF;
+}
+#result svg circle {
+	margin: 10px 0 0 0;
+	font-size: 11px;
+}
+
+#result .axis path,
+#result .axis line {
+	fill: none;
+	stroke: #FFF;
+	shape-rendering: crispEdges;
+}
+#result .axis_x path,
+#result .axis_x line {
+	fill: none;
+	stroke: #FFF;
+	shape-rendering: crispEdges;
+}
+#result .axis_y path,
+#result .axis_y line {
+	fill: none;
+	stroke: #FFF;
+	shape-rendering: crispEdges;
+}
+#result .axis text {
+	font-size: 11px;
+}
+#result .axis_y text {
+	font-size: 11px;
+}
+#result .axis_x text {
+	font-size: 11px;
+}
+#result .c_line {
+	fill: none;
+	stroke: #ccc;
+	shape-rendering: auto;
+}

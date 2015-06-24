@@ -1,0 +1,1747 @@
+@charset utf-8;
+
+/* default-setting
+-------------------------------------------------- */
+body {
+	/*background-color: #e6e6e6;*/
+	/*background: url(../img/bg.jpg) no-repeat center fixed;
+	background-size: cover;
+	position: relative;*/
+}
+
+/*.head {
+	text-align: center;
+}*/
+
+/*h2 {
+	display: inline-block;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	margin: 70px 0 20px auto;
+	color: #0a385b;
+	border-bottom: 7px solid #0a385b;
+	padding-bottom: 15px;
+
+}*/
+
+.wrapper {
+	text-align: center;
+}
+.content {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.75;
+	width: 100%;
+	text-align: left;
+}
+
+.content h3 {
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.content p {
+	margin: 0 0 10px;
+}
+.content p img {
+	max-width: 100%;
+	height: auto;
+	margin: 5px auto;
+}
+.content ul {
+	margin-top: 24px;
+	margin-bottom: 0;
+	padding-left: 16px;
+}
+.content ul li {
+	line-height: 1.4;
+	margin-top: 8px;
+}
+.content iframe {
+	margin-top: 24px;
+}
+
+/*h3 {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+	color:#808080;
+}
+*/
+/* content-visual
+-------------------------------------------------- */
+.content-visual {
+	position: relative;
+	width: 100%;
+	height: 360px;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-image: url(../img/cover_bg.png);
+	background-repeat: no-repeat;
+}
+.content-visual .content-visual-title {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 400px;
+	max-width: 400px;
+	/*height: 66px;*/
+	/*max-height: 66px;*/
+	background-image: url(../img/cover_title.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+}
+.content-visual h2 {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #000000;
+	height: 33px;
+	max-height: 66px; 
+	font-family: 'Hiragino Mincho ProN', 'ヒラギノ明朝 ProN W3', 'Meiryo-Mincho', 'メイリオ明朝', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 1.4;
+	letter-spacing: .2em;
+	text-shadow: 1px 0px 10px #ffffff;
+	-moz-text-shadow: 1px 0px 10px #ffffff; 
+	-webkit-text-shadow: 1px 0px 10px #ffffff; 
+}
+.content-visual h2 br {
+	display:none;
+}
+@media (max-width: 479px) {
+	.content-visual h2 {
+		font-size: 21px;
+		height: 56px;
+		padding: 0 24px;
+	}
+	.content-visual h2 br {
+		display: inline;
+	}
+}
+
+/* content-text
+-------------------------------------------------- */
+.content-text {
+	height: 100%;
+	width: 640px;
+	margin: 80px auto;
+}
+
+.content-text2{
+	height: 100%;
+	width: 640px;
+	margin: 0 auto 100px;
+}
+
+.content-text2 p {
+	margin: 40px 0;
+}
+
+.content-text3 {
+	height: 100%;
+	width: 640px;
+	margin: 80px auto 130px;
+}
+
+/* content-graph
+-------------------------------------------------- */
+.content-graph {
+	position: relative;
+	margin: 60px auto ;
+}
+.content-graph-header {
+	width: 640px;
+	margin: 0 auto;
+}
+.content-graph-header h3 {
+	text-align: center;
+	margin-bottom: 32px;
+}
+.content-graph-body1 {
+	position: relative;
+	width: 980px;
+	height: 528px; /* btn(32px) + margin(16px) + content-default */
+	margin: 0 auto;
+}
+p.btn-about-graph {
+	position: absolute;
+	right: 0;
+	margin: 0;
+}
+.content-default {
+	position: absolute;
+	bottom: 0;
+	width: 980px;
+	height: 480px;
+}
+.btn-group-graph {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+}
+/*.content-graph-body2 {
+	position: relative;
+	width: 100%;
+	height: 514px;
+	margin: 0 auto;
+}*/
+/*.content-full {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 450px;
+}*/
+
+.tab-table {
+	background-color: #f7f7f7;
+	padding: 40px;
+	margin: -30px auto 10px
+}
+
+/* tab-content
+-------------------------------------------------- */
+
+.tab-content {
+	max-width: 640px;
+	margin: 0 auto ;
+}
+
+.nav-tabs {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+ .active {
+	padding: 0;
+}
+
+.content ul {
+	margin-top: 0px;
+}
+
+.content ul li {
+	margin-top: 0px;
+}
+
+/*.nav-tabs .active {
+	background-color: #f7f7f7;
+}*/
+
+
+
+/* income-table
+-------------------------------------------------- */
+.income {
+	max-width: 640px;
+	margin: 10px auto;
+}
+
+.income .income-table {
+	margin: 0 auto;
+	width: 100%;
+	border:none;
+    vertical-align: middle;
+}
+
+.income p {
+	width: 100%
+}
+
+.income .income-table th {
+	padding: 15px 0px 2px 8px;
+	width:  24%;
+	font-size: 15px;
+
+}
+
+.income .income-table td {
+	padding: 15px 10px 5px 0px;
+	width:  36%;
+	text-align: right;
+	border-left: 3px solid #f7f7f7;
+}
+
+.income-table-case {
+	border:none;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.income-table-case span {
+	font-weight: normal;
+	font-size: 12px;
+	position: relative;
+	left:7px;
+}
+
+.income-table-case {
+	border-bottom:  1px solid #dddddd;
+}
+
+
+.income-table-pt1{
+	border-bottom:  1px solid #dddddd;
+}
+
+.income-table-pt2 {
+	background-color: #dddddd;
+	border-bottom:  1px solid #f7f7f7;
+	
+}
+
+.income-table-sum {
+	font-weight: bold;
+	font-size: 20px;
+	border-bottom:  2px solid #333;
+}
+
+/* tax
+-------------------------------------------------- */
+
+/*.wrapper {
+	max-width: 980px;
+	margin: 0 auto;
+
+	background: inherit;
+}*/
+
+.tax {
+	display: block;
+	max-width: 980px;
+	font-size: 14px;
+	line-height: 1.75;
+	text-align: left;
+	padding-top: 72px;
+	padding-bottom: 62px;
+	margin: 50px auto 50px auto;
+	border-radius: 15px;
+	background-color: #ffffff;
+	border: 4px solid #eeeeee;
+	position: relative;
+}
+
+/*.tax p {
+	color: #808080
+}
+
+.tax ul {
+	margin-bottom: 0;
+}
+.tax ul li {
+	line-height: 1.4;
+}*/
+
+/* read
+-------------------------------------------------- */
+
+.read{
+	display: block;
+	width: 640px;
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 0 6%;
+	background-color: #ffffff;
+	position: absolute;
+	top: -3%;
+	left: 0%;
+	right: 0%;
+}
+
+.read img {
+	width: 75px;
+	height: 82px;
+	margin-left: -3px
+}
+
+.read p {
+	position: relative;
+	margin: 0;
+}
+
+.read .caution {
+	font-size: 11px;
+}
+
+.read .help-img {
+	max-width: 535px;
+	float: left;
+}
+
+.read:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+}
+
+
+/* help-img
+-------------------------------------------------- */
+
+.help-img {
+	display: block;
+	width: 74px;
+	height: 74px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #092f5f;
+	background: -webkit-linear-gradient(top, #144c7b 0%, #041d42);
+	background: -moz-linear-gradient(top, #144c7b 0%, #041d42);
+	background: -o-linear-gradient(top, #144c7b 0%, #041d42);
+	border-radius: 37px;
+	border: 1px solid #092f5f;
+	box-shadow: inset 0px -2px 4px 0px rgba(255, 255, 265, 0.5);
+	margin-right: 20px;
+	position: relative;
+	top: -12px;
+	float: left;
+}
+
+.help-img p {
+	margin: 5px 0 0 0;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: bold;
+	text-shadow: 0px -2px 0px #092846;
+	font-family: serif;
+	position: relative;
+	z-index: auto;
+
+}
+
+.help-img p:after{
+	display: inline-block;
+	width: 74px;
+	height: 20px;
+	background-color: #cccccc;
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6);
+	background: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6);
+	background: -o-linear-gradient(top, #ffffff 0%, #e6e6e6);
+	border-radius: 84px / 24px;
+	position: relative;
+	top: -25px;
+	content: '';
+	z-index: -1;
+}
+
+
+
+/* tax-input
+-------------------------------------------------- */
+
+.content #tax-input ul {
+  margin: 0 auto;
+  padding-left: 0px;
+  list-style: none ;
+  padding: 10px 0 30px 0px;
+  max-width: 640px;
+  font-size: 0;
+}
+
+
+.content .li-01 {
+	display: inline-block;
+	width: 45%;
+	float: left;
+	padding: 30px 0;
+
+}
+
+.content .li-02 {
+	display: inline-block;
+	width: 45%;
+	font-size: 12px;
+	color: #808080;
+	float: right;
+	padding: 30px 0;
+}
+
+.content .li-03 {
+	display: block;
+	max-width: 100%;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	clear: both;
+	padding: 30px 0;
+}
+
+.li-03 .child-select {
+	float: right;
+	text-align: right;
+}
+
+.li-03:after{
+	content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+
+.form-name-child {
+	font-size:12px;
+	font-weight:normal;
+	line-height:1.7;
+	color: #808080;
+	margin: 0 10px 0 17px;
+}
+
+.content .li-04 {
+	display: block;
+	width: 45%;
+	float: left;
+	padding: 30px 0;
+}
+
+.content .li-05 {
+	display: block;
+	width: 45%;
+	float: right;
+	padding: 30px 0;
+}
+
+.li-01 label {
+	display: block;
+	width: 100%;
+}
+
+.li-03 label {
+	float: left;
+}
+
+.li-04 label {
+	display: block;
+	width: 100%;
+}
+
+.li-05 label {
+	display: block;
+	width: 100%;
+}
+
+.li-01 select {
+	float: right;
+}
+
+.li-02 select {
+	float: right;
+}
+
+.li-04 select {
+	float: right;
+}
+
+.li-05 select {
+	float: right;
+}
+
+
+.form-control {
+	height: 58px;
+	border: 2px solid #e5e5e5;
+	box-shadow: inset 0px 3px 0px 0px #f7f7f7;
+	background: -webkit-linear-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+	background: -moz-linear-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+	background: -o-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+	background-repeat: no-repeat;
+	background-position: 100% center;
+	border-radius: 5px;
+}
+
+.form-group {
+	margin: 0 auto;
+	max-width: 640px;
+}
+
+.form-name{
+	float: left;
+	font-size: 16px;
+	font-weight:normal;
+	vertical-align: middle;
+	color: #808080;
+	text-align: left;
+	position: relative;
+}
+
+.icon {
+	position: relative;
+	top: -3px;
+	width: 33px;
+	height: 33px;
+	display: inline-block;
+}
+
+.form-group:after{
+  content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+
+
+/* output
+-------------------------------------------------- */
+.output{
+	background-color: #ffffff;
+	border: 8px solid #eeeeee;
+	max-width: 840px;
+	margin: 0 auto;
+	padding: 60px 0 90px;
+	clear: both;
+	text-align: center;
+}
+
+.output .input-income {
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 2px dotted #eeeeee;
+	color: #bbbbbb;
+}
+
+.output .input-income span {
+	font-size: 18px;
+}
+
+.output .calc-output{
+	vertical-align:baseline;
+	max-width: 640px;
+	margin: 0 auto;
+	font-size: 0;
+	text-align: left;
+	font-size: 0px;
+	overflow: hidden; /*仮*/
+}
+
+.calc-output span {
+	font-size: 13px;
+}
+
+.btn{
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-left: 20px;
+}
+
+.calc-left {
+	width: 48%;
+	float: left;
+}
+
+.calc-right {
+	width: 48%;
+	float: right;
+}
+
+.calc-right:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	font-size:0;
+	clear: both; 
+	visibility:hidden;
+}
+
+.taxable {
+	clear: both;
+	font-size: 16px;
+	color: #808080;
+	text-align: center;
+	font-weight: bold;
+	padding: 30px 0 0 0;
+}
+
+.taxable span {
+	font-size: 21px;
+}
+
+
+
+/*.calc-bottom div {
+	display: inline-block;
+	width: 15%;
+}*/
+
+.output-name,
+.output-name2 {
+/*	float: left;*/
+	width: 50%;
+	vertical-align: baseline;
+	font-size: 14px;
+	font-weight: normal;
+/*	line-height: 1;*/
+	color: #808080;
+	padding: 15px 0 0 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.output-data,
+.output-data2 {
+/*	float: left;*/
+	width: 50%;
+	vertical-align: baseline;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+/*	line-height: 1;*/
+	color: #68c6ce;
+	padding: 15px 0 0 0;
+	border-bottom: 1px solid #e5e5e5;	
+}
+.output-name2,
+.output-data2 {
+	width: 100%;
+}
+
+
+
+
+
+.calc-bottom {
+	width: 100%;
+	font-size: 14px;
+	/*display: block;*/
+	background-color: #eeeeee;
+	padding: 45px 60px 10px 0;
+	color: #333;
+	border-collapse: separate;
+	vertical-align: baseline;
+	position: relative;
+}
+
+.calc-bottom:before{
+	left: 50%;
+	top: 0%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #ffffff;
+	border-width: 15px;
+	margin-top: -15px;
+}
+
+.calc-bottom-table {
+	width: 100%;
+	font-size: 14px;
+	/*display: block;*/
+	background-color: #eeeeee;
+	color: #333;
+}
+
+.total {
+	display: block;
+	text-align: center;
+	background-color: #eeeeee;
+	padding: 10px 60px 60px 60px;
+	width: 100%;
+}
+
+.total p {
+	margin:0;
+	background-color: #dddddd;
+	padding: 10px;
+}
+
+.total .output-name3 {
+	font-size: 16px;
+	font-weight: bold;
+	border:none;
+	margin-right: 10px;
+}
+
+.total .output-data3 {
+	font-size: 24px;
+	font-weight: bold;
+	border:none;
+}
+
+
+.output-name3,
+.output-data3 {
+	width: 30%;
+	font-size: 16px;
+	border-bottom: 1px solid #ddd;
+}
+
+.output-name3{
+	padding: 10px 0;
+}
+
+.output-data3 {
+	text-align: right;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.calc-bottom-head {
+	width: 40%;
+	text-align: center;
+	/* padding: 50px; */
+	/*border-right: 2px solid #333;*/
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.calc-bottom-head p {
+	margin-bottom: 0;
+}
+
+
+
+.calc-color1,
+.calc-color2,
+.calc-color3{
+	display: inline-block;
+	width: 4px;
+	height: 13px;
+	margin-right: 10px
+}
+
+.calc-color1 {
+	background-color: #ff6666;
+}
+
+.calc-color2 {
+	background-color: #107bac;
+}
+
+.calc-color3 {
+	background-color: #82b100;
+}
+
+
+/* modal
+-------------------------------------------------- */
+.modal-dialog {
+	width: 840px;
+	font-size: 14px;
+}
+
+.modal-content{
+	padding: 40px 70px;
+}
+
+
+.modal-header {
+	padding: 25px 32px;
+}
+
+.modal-header h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.modal-body {
+	padding: 24px 27px 24px;
+}
+
+.modal-footer {
+  padding: 24px 27px 24px;
+}
+
+.modal-footer .btn{
+	padding: 9px 25px 9px 25px;
+
+}
+
+
+.calc-header {
+	font-size: 18px;
+	font-weight: bold;
+	color: #092f5f;
+}
+
+.calc-description {
+	margin-bottom: 30px;
+	width: 100%;
+	margin-top: -5px;
+}
+
+.calc-description2 {
+	width: 100%;
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+
+
+
+#calc-prepare {
+	margin-bottom: 50px;
+	border-bottom: 1px dashed #dddddd;
+}
+
+.modal-content table th,
+.modal-content table td {
+	padding-top: 15px;
+	width: auto;
+}
+
+.modal-content table th{
+	padding-left: 20px;
+	font-weight: normal;
+}
+
+.modal-content table td {
+	text-align: right;
+	font-weight: bold;
+}
+
+.modal-content table tr {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.calc-formula {
+	font-weight: bold;
+}
+
+.calc-footer {
+	margin: 20px 0 0;
+	border-top: 1px dashed #eeeeee;
+	padding: 20px 0;
+}
+
+
+
+/* インプットカスタマイズ基本
+-------------------------------------------------- */
+
+input, button, select, textarea {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #999999;
+}
+
+/* セレクトボタンカスタマイズ
+-------------------------------------------------- */
+
+select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    padding: 6px 0 6px 14px;
+    border: 1px solid #e5e5e5; 
+    border-radius: 5px;
+    text-indent: .01px;
+    background: url(../img/btn.svg),-webkit-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+    background: url(../img/btn.svg),-webkit-linear-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+    background: url(../img/btn.svg),-moz-linear-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+    background: url(../img/btn.svg),-o-linear-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+    background: url(../img/btn.svg),linear-gradient(top, #f8f8f8 0%, #ffffff 35%, #ffffff 100%);
+    background-repeat:no-repeat;
+    background-position: 100% center;
+    font-weight: normal;
+    cursor: pointer;
+    width: 80px;
+}
+
+.li-01 select{
+    width: 110px;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+select:hover{
+	-webkit-transition: border-color 0.2s linear;
+	-moz-transition: border-color 0.2s linear;
+	transition: border-color 0.2s linear;
+	-webkit-transition: box-shadow 0.2s linear;
+	-moz-transition: box-shadow 0.2s linear;
+	transition: box-shadow 0.2s linear;
+	border-color: #68c6ce;
+	box-shadow: 0 0 5px 0px #68c6ce;
+}
+
+
+/* チェックボックスカスタマイズ
+-------------------------------------------------- */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox {
+	box-sizing: border-box;
+	-webkit-transition: background-color 0.2s linear;
+	transition: background-color 0.2s linear;
+	-webkit-transition: box-shadow 0.2s linear;
+	transition: box-shadow 0.2s linear;
+	position: relative;
+	display: inline-block;
+	margin: 0 0px -2px 20px;
+	padding: 12px 12px 12px 38px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	vertical-align: baseline;
+	cursor: pointer
+}
+
+/*.checkbox:hover {
+  background-color: #e2edd7;
+}*/
+
+.checkbox:hover:after {
+	border-color: #68c6ce;
+	box-shadow: 0 0 5px 0px #68c6ce;
+}
+
+.checkbox:after {
+	-webkit-transition: border-color 0.2s linear;
+	transition: border-color 0.2s linear;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	display: block;
+	margin-top: -10px;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	box-shadow: inset 0px 2px 4px 0px #f7f7f7;
+	content: '';
+}
+
+.checkbox:before {
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+	position: absolute;
+	top: 53%;
+	left: 22px;
+	display: block;
+	margin-top: -8px;
+	width: 5px;
+	height: 9px;
+	border-right: 2px solid #68c6ce;
+	border-bottom: 2px solid #68c6ce;
+	content: '';
+	opacity: 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+input[type=checkbox]:checked + .checkbox:before {
+	opacity: 1;
+}
+
+
+/* ボタンカスタマイズ
+-------------------------------------------------- */
+
+
+
+
+/* media
+-------------------------------------------------- */
+@media (max-width: 979px) {
+	.content-visual {
+		background-size: auto;
+		background-position: top center;
+	}
+	.content h3 {
+		margin: 64px auto 56px;
+	}
+	.content-graph-header h3 {
+		margin-bottom: 16px;
+	}
+	.content-text,
+	.content-text2,
+	.content-text3,
+	.content-graph {
+		margin: 64px auto;
+	}
+	.content-graph,
+	.content-graph-body1,
+	.content-default,
+	.content-full {
+		width: 100%;
+	}
+	p.btn-about-graph {
+		right: 16px;
+	}
+	.btn-group-graph {
+		left: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.content h3 {
+		font-size: 18px;
+	}
+	.content-visual {
+		height: 248px;
+	}
+	.content-visual-title {
+		display: none;
+		/*width: 90.2857%;*/
+		/*min-width: 288px;*/
+	}
+	.content-text,
+	.content-text2,
+	.content-text3,
+	.content-graph-header {
+		width: 83.3333%;
+	}
+	.content-graph-body1 {
+		height: auto;
+		text-align: center;
+	}
+	p.btn-about-graph {
+		position: static;
+		margin: 24px 8.3333% 24px;
+	}
+	p.btn-about-graph a {
+		width: 100%;
+	}
+	.content-default {
+		position: static;
+	}
+	.btn-group-graph {
+		position: static;
+		margin: 24px 8.3333% 0;
+	}
+}
+
+@media (max-width: 480px) {
+	.content-text,
+	.content-text2,
+	.content-text3,
+	.content-graph-header {
+		width: 90%;
+	}
+	.content-graph-body1 {
+		height: auto;
+	}
+	p.btn-about-graph {
+		margin: 24px 5% 24px;
+	}
+	.content-default {
+		height: 100vw;
+	}
+	.btn-group-graph {
+		position: static;
+		margin: 24px 5% 0;
+	}
+}
+
+
+@media (max-width: 980px) {
+
+	#tax-input {
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	.content{
+		width: 95%;
+		margin: 50px auto;
+
+	}
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+
+	#tax-input {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	h2{
+		margin: 70px 0 40px auto;
+	}
+
+	.read{
+		width: 83.3333%;
+		margin: 0 auto;
+		padding: 0 6%;
+		top: -2%;
+	}
+
+	.tax {
+		width: 100%;
+		border: none;
+		border-top: 4px solid #eeeeee;
+		border-bottom: 4px solid #eeeeee;
+		margin: 0px auto 30px auto;
+		border-radius: 0px;
+	}
+
+		/* tab-table
+	-------------------------------------------------- */
+
+	.tab-table {
+		padding: 40px 0;
+	}
+
+	.nav-tabs {
+		width: 83.3333%;
+	}
+
+	.content ul {
+		padding-left: 0;
+	}
+
+	.content ul li {
+		width: 33.33333%;
+		text-align: center;
+	}
+
+	.content ul li a {
+		padding: 15px 15px;
+	}
+
+	.nav-tabs li:last-child a {
+		margin-right: 0;
+
+	}
+
+	.tab-content {
+		width: 83.3333%;
+	}
+
+	.income {
+		width: 100%;
+	}
+
+	.income .income-table th {
+		width: 20%;
+	}
+
+	.income .income-table td {
+		width: 40%;
+	}
+
+
+		/* input
+	-------------------------------------------------- */
+
+
+	#tax-input {
+		width: 83.3333%;
+		margin: 0 auto;
+	}
+
+	.content .li-01 {
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+	.content .li-02 {
+		display: block;
+		width: 100%;
+		font-size: 12px;
+		color: #808080;
+		border-bottom: 1px solid #e5e5e5;
+		padding: 20px 0 24px 0;
+	}
+
+	.content .li-02 label {
+		float: right;
+	}
+
+
+
+
+	.content .li-03 {
+		display: block;
+		width: 100%;
+		border-top:none;
+		border-bottom: 1px solid #e5e5e5;
+		float: none;
+	}
+
+	.content .li-03 label {
+		float: none;
+		width: 35.333%;
+	}
+
+	.content .li-03 label:last-child {
+		width: auto;
+
+	}
+
+	.content .li-03 .child-select {
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin-top: 5px;
+	}
+
+	.form-name-child {
+		margin: 0 10px 0 0;
+	}
+
+
+
+
+	.output {
+		width: 100%;
+		border: none;
+		border-top: 8px solid #eeeeee;
+		border-bottom: 8px solid #eeeeee;
+		padding: 60px 0 60px;
+
+	}
+
+	.calc-output {
+		display: block;
+		width: 100%;
+	}
+
+	.output-name,
+	.output-data {
+		width: 50%;
+		vertical-align: middle;
+
+	}
+
+	.output-name2,
+	.output-data2 {
+		width: 100%;
+		vertical-align: middle;
+		display: block;
+	}
+
+	.output-name2 {
+		border-bottom: none;
+	}
+
+	.output-data2 {
+		padding: 0;
+	}
+
+	.output-data,
+	.output-data2 {
+		font-size: 16px;
+	}
+
+	
+
+	.calc-bottom {
+		padding: 6%;
+	}
+
+	.calc-bottom-tr {
+		display: block;
+		  width: 200%;
+	}
+
+	.calc-bottom-head {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+	.calc-bottom-tr .output-name3,
+	.calc-bottom-tr .output-data3 {
+/*		display: block;*/
+		width: 100%;
+
+	}
+
+	/*.calc-bottom-tr .output-name3 {
+		float: left;
+	}
+
+	.calc-bottom-tr .output-data3 {
+		float: right;
+	}*/
+
+
+	.total {
+		padding:0 6% 6% 6%;
+	}
+
+	.total .output-name3,
+	.total .output-data3 {
+		display: inline;
+
+	}
+
+
+	.output-name3,
+	.output-data3 {
+		width: 50%;
+		display: table-cell;
+	}
+
+
+	.output-name3{
+		padding: 10px 0;
+	}
+
+	.output-data3 {
+		font-size: 20px;
+		padding: 10px 0;
+
+	}
+
+	.form-name {
+		margin: 0;
+		font-size: 16px;
+	}
+
+	.content .li-03 {
+		display: block;
+		width: 100%;
+		border-top:none;
+		border-bottom: 1px solid #e5e5e5;
+		float: none;
+	}
+
+	.content .li-04 {
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+	.content .li-05 {
+		display: block;
+		width: 100%;
+	}
+
+	.form-group {
+		margin: 0 auto;
+		max-width: 640px;
+	}
+
+
+		/* modal
+	-------------------------------------------------- */
+	.modal-dialog {
+		width: 90%;
+		margin: 2% auto;
+	}
+
+	.modal-content{
+		padding: 5% 5%;
+	}
+
+
+	.calc-footer {
+		margin: 20px 0 0;
+		border-top: 1px dashed #eeeeee;
+		padding: 20px 0;
+	}
+
+
+			/* インプットカスタマイズ基本
+	-------------------------------------------------- */
+
+	input, button, select, textarea {
+	  font-size: 12px;
+	  line-height: 1.7;
+	  color: #999999;
+	}
+
+	/* セレクトボタンカスタマイズ
+	-------------------------------------------------- */
+
+	select{
+	    padding: 13px 53px 13px 18px;
+	}
+
+	select:hover{
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	border-color: none;
+	box-shadow: none;
+	}
+
+
+
+
+	/* チェックボックスカスタマイズ
+	-------------------------------------------------- */
+	.checkbox{
+		padding: 16px 12px 16px 42px;
+	}
+
+	.checkbox:hover:after {
+	border-color: #68c6ce;
+	box-shadow: 0 0 5px 0px #68c6ce;
+	}
+
+	
+}
+
+
+@media (max-width: 480px) {
+	.content-text,
+	.content-text2,
+	.content-text3,
+	.content-graph-header {
+		width: 90%;
+	}
+	.content-graph-body1 {
+		height: auto;
+	}
+	p.btn-about-graph {
+		margin: 24px 5% 24px;
+	}
+	.content-default {
+		height: 100vw;
+	}
+	.btn-group-graph {
+		position: static;
+		margin: 24px 5% 0;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.content{
+		width: 95%;
+		margin: 20px auto;
+		padding-top: 30px;
+
+	}
+
+	h2{
+		font-size: 17px;
+		margin: 45px 0 0 auto;
+	}
+
+	h4 {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+
+	.tax {
+		padding-top: 140px;
+	}
+
+	.read {
+		width: 100%;
+		background: none;
+		top: -3%;
+	}
+
+
+	.read .help-img {
+		float: none;
+		margin: 20px auto 0;
+		display: block;
+	}
+
+	.read p {
+		margin: 5px 0 20px;
+	}
+
+	label{
+		display: block;
+		float: none;
+	}
+
+		/* tab-table
+	-------------------------------------------------- */
+
+	.nav-tabs {
+		width: 90%;
+	}
+
+	.tab-content {
+		width: 90%;
+	}
+
+	.income {
+		width: 100%;
+	}
+
+	.income-table-sum {
+		font-size: 14px;
+	}
+
+	.income-table tr {
+		display: table;
+	}
+
+	.income .income-table th {
+		width: 30%;
+		padding: 15px 0px 2px 5px;
+		font-size: 14px;
+	}
+
+	.income .income-table td {
+		width: 35%;
+		padding: 15px 5px 5px 0px;
+	}
+
+
+	/* input
+	-------------------------------------------------- */
+
+	#tax-input {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.content .li-03 .child-select {
+		margin: 0 auto;
+	}
+
+	.content .li-03 label {
+		float: right;
+		width: 100%;
+		text-align: right;
+	}
+
+	.content .li-03 .child-select {
+		text-align: right;
+		width: 50%;
+		display: inline-block;
+	}
+
+	.form-name-child {
+		margin: 0 10px 0 0;
+	}
+
+	.output {
+		padding: 30px 0 30px 0;
+	}
+
+	.btn {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.calc-output {
+		display: block;
+		width: 90%;
+	}
+	
+	.calc-left,
+	.calc-right,
+	.calc-bottom {
+		width: 100%;
+	}
+
+
+
+	tr {
+		width: 100%;
+	}
+
+	.output-name, .output-data {
+		width: 100%;
+	}
+
+	.form-name {
+		margin: 9px 0 0;
+		font-size: 14px;
+	}
+
+
+	.output-name,
+	.output-name2 {
+		border-bottom: 1px solid #e5e5e5;
+		display: table-cell;
+		width: 50%;
+	}
+
+	.output-data,
+	.output-data2 {
+		font-size: 20px;
+		padding: 30px 0 0 0;
+		display: table-cell;
+		width: 50%;
+	}
+
+			/* modal
+	-------------------------------------------------- */
+	.modal-dialog {
+		width: 90%;
+		margin: 2% auto;
+	}
+
+	.modal-content{
+		padding: 5% 5%;
+	}
+
+	.modal-dialog p {
+		margin-bottom: 20px;
+	}
+
+	.modal-content table th {
+		padding-left: 5px;
+		padding-top: 18px;
+		font-weight: normal;
+		display: block;
+		width: 100%;
+	}
+
+	.modal-content table td {
+		text-align: left;
+		font-weight: bold;
+		display: block;
+		padding-left: 5px;
+		padding-top: 3px;
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.calc-description {
+		margin-bottom: 50px;
+	}
+
+
+	.calc-footer {
+		margin: 20px 0 0;
+		border-top: 1px dashed #eeeeee;
+		padding: 20px 0;
+	}
+
+
+
+
+
+
+	
+
+}
+
+
+
+
+
+
