@@ -1,58 +1,37 @@
+<!-- 隣接セレクタ
+cssのセレクタ指定方法の1種、要素と要素の間を+で囲ってあげるだけで
+その要素が並んだときにのみ発動するCSSプロパティを定義することができる。
+ -->
+<!-- p要素は同じ要素が重なった場合、値の大きいプロパティを優先する -->
+<!-- インライン要素は上下のマージンはなくwidthとhightも効かない。line-heightで代用する。 -->
+
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
 <meta charset="utf-8">
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <title>d3.js sample</title>
-  <style type="text/css">
-  div.bar{
-    display: inline-block;
-    width: 20px;
-    height: 50px;
-    background-color:blue;
-  }
-  </style>
-   </head>
-   <body>
-      <svg width ="500px" height ="900px"></svg>
-      <script type ="text/javascript">
+<title>learn js</title>
 
-      var dataset = [300,400,20,40,130];
+<style>
+  body{
+   background: #e0e0e0;
+   font-family: arial, sans-serif;
+   text-align: center;
+   }
+   #timetext{
+     color: #00aaff;
+     font-size:128px;
+     margin:auto 40px;
+     text-shadow: 2px 5px 2px rgba(255, 255, 255, 0.5);
+   }
+</style>
 
-      d3.select("body").selectAll("p")
-      .data(dataset)
-      .enter()
-      .append("div")
-      .attr("class", "bar")
-      .attr("width", function(d){
-        alert( d + "の中身です。");
-        return d;
-        })
+</head>
 
-      // d3.select("body").selectAll("p")
-      // .data(dataset)
-      // .enter()
-      // .append("p")
-      // .text(function(d){return d + "だよ。";})
-      // .style("color",function(d){
-      //
-      //   if (d > 200){
-      //     return "red";
-      //   } else {
-      //       return "blue";
-      //     }
-      // })
-      //
-      // .classed(bar, true);
+<body>
+<div id="timetext">0.00</div>
+<button id="start">START</button>
+<button id="stop">STOP</button>
+<button id="reset">RESTE</button>
+</body>
 
-      </script>
-   </body>
 </html>
-<!-- d3js practicemeno -->
-
-<!-- d3においてattrは属性を修正、追加するもの
-　appendは要素を修正、追加するもの -->
-
-<!-- 参照はチェイン構文のようなもの -->
-
-<!-- データのバインディング -->
