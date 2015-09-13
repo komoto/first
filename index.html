@@ -8,7 +8,6 @@ cssのセレクタ指定方法の1種、要素と要素の間を+で囲ってあ
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<<<<<<< Updated upstream
 <title>stop watch</title>
 
 <style>
@@ -24,104 +23,8 @@ cssのセレクタ指定方法の1種、要素と要素の間を+で囲ってあ
      text-shadow: 2px 5px 2px rgba(255, 255, 255, 0.5);
    }
 </style>
-
 </head>
-
-=======
-<<<<<<< HEAD
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <title>d3.js sample</title>
-  <style type="text/css">
-  div.bar{
-    display: inline-block;
-    width: 20px;
-    height: 50px;
-    background-color:blue;
-  }
-  </style>
-   </head>
    <body>
-
-      <script type ="text/javascript">
-
-      var dataset = [10,20];
-
-      for (var i = 0; i < 25; i++){
-        var randamdata = Math.round(Math.random() * 30);
-        console.log( randamdata + "です");
-        dataset.push(randamdata);
-      }
-
-      d3.select("body").selectAll("div")
-      .data(dataset)
-      .enter()
-      .append("div")
-      .attr("class", "bar")
-      .style("height", function(d){
-        var height = d * 5;
-        return height + "px";
-        })
-      .style("margin", "2px")
-
-=======
-<title>stop watch</title>
-
-<style>
-  body{
-   background: #e0e0e0;
-   font-family: arial, sans-serif;
-   text-align: center;
-   }
-   #timertext{
-     color: #00aaff;
-     font-size:128px;
-     margin:auto 40px;
-     text-shadow: 2px 5px 2px rgba(255, 255, 255, 0.5);
-   }
-</style>
-
-</head>
->>>>>>> origin/master
-
->>>>>>> Stashed changes
-<body>
-<div id="timertext">0.00</div>
-<button id="start">START</button>
-<button id="stop">STOP</button>
-<button id="reset">RESTE</button>
-<script>
-(function(){
-  'use strict';
-<<<<<<< Updated upstream
-
-=======
-
-<<<<<<< HEAD
-
-      </script>
+     sample html
    </body>
-</html>
-<!-- d3js practicemeno -->
-=======
->>>>>>> Stashed changes
-  var startButton = document.getElementById('start');
-  var stopButton = document.getElementById('stop');
-  var resetButton = document.getElementById('reset');
-  var timertext = document.getElementById('timertext');
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
-
-    startButton.addEventListener('click', function() {
-    console.log("startbuttonclickOK")
-    startTime = Date.now();
-    console.log(startTime);
-    updataTimertext()
-  }); 
-})();
-
-</script>
-</body>
-
 </html>
